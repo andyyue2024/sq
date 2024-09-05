@@ -1,0 +1,187 @@
+D:\Workplace-Pycharm\.venv\Scripts\python.exe D:\Workplace-Pycharm\QuantitativeTransaction\SRC\sq\test\sq_test3_1.py
+2024-08-29 12:49:40.916937: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-29 12:49:42.202770: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+----------------------------------------
+python sdk version: 3.0.168
+c sdk version: 3.7.4
+----------------------------------------
+[INFO]  Start...
+[INFO]  SVMTrainer train...
+Checking whether there is an H2O instance running at http://localhost:54321..... not found.
+Attempting to start a local H2O server...
+; OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+  Starting server from D:\Workplace-Pycharm\.venv\Lib\site-packages\h2o\backend\bin\h2o.jar
+  Ice root: C:\Users\Andy\AppData\Local\Temp\tmpmal8crm3
+  JVM stdout: C:\Users\Andy\AppData\Local\Temp\tmpmal8crm3\h2o_Andy_started_from_python.out
+  JVM stderr: C:\Users\Andy\AppData\Local\Temp\tmpmal8crm3\h2o_Andy_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+--------------------------  -----------------------------
+H2O_cluster_uptime:         03 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.46.0.4
+H2O_cluster_version_age:    1 month and 19 days
+H2O_cluster_name:           H2O_from_python_Andy_z7rpa1
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    3.844 Gb
+H2O_cluster_total_cores:    16
+H2O_cluster_allowed_cores:  16
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+Python_version:             3.12.3 final
+--------------------------  -----------------------------
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |
+12:50:15.771: AutoML: XGBoost is not available; skipping it.
+12:50:15.824: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+
+12:50:16.900: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+████
+12:50:21.406: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+█
+12:50:23.719: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+███
+12:50:29.586: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+█
+12:50:32.538: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+██
+12:50:35.991: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+█
+12:50:37.681: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+██
+12:50:40.900: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+███████████████████████████████████████████████
+13:00:48.846: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+13:00:49.315: _response param, We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+
+██| (done) 100%
+********************
+leaderboard:  model_id                                                     rmse        mse       mae     rmsle    mean_residual_deviance
+StackedEnsemble_AllModels_1_AutoML_1_20240829_125015     0.255538  0.0652999  0.154792  0.180039                 0.0652999
+StackedEnsemble_BestOfFamily_1_AutoML_1_20240829_125015  0.260135  0.06767    0.164974  0.183768                 0.06767
+GBM_grid_1_AutoML_1_20240829_125015_model_23             0.264452  0.0699351  0.167987  0.186189                 0.0699351
+GBM_grid_1_AutoML_1_20240829_125015_model_13             0.266194  0.0708594  0.160023  0.187279                 0.0708594
+GBM_grid_1_AutoML_1_20240829_125015_model_18             0.267837  0.0717368  0.169126  0.188463                 0.0717368
+GBM_grid_1_AutoML_1_20240829_125015_model_20             0.278656  0.077649   0.185164  0.196353                 0.077649
+GBM_grid_1_AutoML_1_20240829_125015_model_1              0.283614  0.080437   0.195012  0.200772                 0.080437
+GBM_grid_1_AutoML_1_20240829_125015_model_15             0.284698  0.081053   0.195405  0.200709                 0.081053
+DRF_1_AutoML_1_20240829_125015                           0.285384  0.0814439  0.205785  0.201147                 0.0814439
+GBM_grid_1_AutoML_1_20240829_125015_model_5              0.288236  0.0830801  0.198723  0.203477                 0.0830801
+[35 rows x 6 columns]
+
+********************
+leaderboard.head:  model_id                                                     rmse        mse       mae     rmsle    mean_residual_deviance
+StackedEnsemble_AllModels_1_AutoML_1_20240829_125015     0.255538  0.0652999  0.154792  0.180039                 0.0652999
+StackedEnsemble_BestOfFamily_1_AutoML_1_20240829_125015  0.260135  0.06767    0.164974  0.183768                 0.06767
+GBM_grid_1_AutoML_1_20240829_125015_model_23             0.264452  0.0699351  0.167987  0.186189                 0.0699351
+GBM_grid_1_AutoML_1_20240829_125015_model_13             0.266194  0.0708594  0.160023  0.187279                 0.0708594
+GBM_grid_1_AutoML_1_20240829_125015_model_18             0.267837  0.0717368  0.169126  0.188463                 0.0717368
+[5 rows x 6 columns]
+
+********************
+Best Model: Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_1_20240829_125015
+
+
+Model Summary for Stacked Ensemble:
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/33
+# GBM base models (used / total)           3/25
+# DRF base models (used / total)           0/2
+# GLM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/5
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 0.0019192123703370015
+RMSE: 0.04380881612571837
+MAE: 0.03207716363085524
+RMSLE: 0.03506213266341156
+Mean Residual Deviance: 0.0019192123703370015
+R^2: 0.9923093189455783
+Null degrees of freedom: 3088
+Residual degrees of freedom: 3083
+Null deviance: 770.8611201035554
+Residual deviance: 5.928447011970998
+AIC: -10544.088740210906
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.06529985724644453
+RMSE: 0.25553836746454445
+MAE: 0.15479187158392435
+RMSLE: 0.18003902771057728
+Mean Residual Deviance: 0.06529985724644453
+R^2: 0.7383299614239723
+Null degrees of freedom: 3088
+Residual degrees of freedom: 3082
+Null deviance: 770.9636089672076
+Residual deviance: 201.7112590342672
+AIC: 353.0458485106833
+
+Cross-Validation Metrics Summary:
+                        mean       sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  ---------  ----------  ------------  ------------  ------------  ------------  ------------
+aic                     80.1507    55.2793     89.4407       91.9362       124.993       109.7         -15.3166
+loglikelihood           0          0           0             0             0             0             0
+mae                     0.154361   0.00877849  0.154372      0.155334      0.161888      0.16046       0.139751
+mean_residual_deviance  0.0651279  0.005446    0.0659001     0.0661827     0.0694301     0.0683734     0.0557532
+mse                     0.0651279  0.005446    0.0659001     0.0661827     0.0694301     0.0683734     0.0557532
+null_deviance           154.193    3.12878     154.84        158.692       153.57        153.914       149.947
+r2                      0.738939   0.0220804   0.735653      0.734755      0.721431      0.725901      0.776957
+residual_deviance       40.2736    3.90239     40.924        42.0922       42.769        42.1864       33.3962
+rmse                    0.255014   0.0109391   0.25671       0.25726       0.263496      0.261483      0.236121
+rmsle                   0.179575   0.00768571  0.181779      0.178364      0.186255      0.184565      0.166909
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+********************
+predictions.head:    predict
+-0.108171
+ 0.520996
+ 1.08286
+ 0.898594
+ 0.747277
+ 0.537497
+ 0.25658
+ 0.108553
+ 0.550561
+ 1.02478
+[10 rows x 1 column]
+********************
+metrics: ModelMetricsRegressionGLM: stackedensemble
+** Reported on test data. **
+
+MSE: 0.06929341689210662
+RMSE: 0.26323642774530015
+MAE: 0.1612776922254531
+RMSLE: 0.1847171138858401
+Mean Residual Deviance: 0.06929341689210662
+R^2: 0.7225647228058585
+Null degrees of freedom: 748
+Residual degrees of freedom: 743
+Null deviance: 187.09906799689668
+Residual deviance: 51.900769252187864
+AIC: 140.1852993819225
+[INFO]  getting best model finished!, time elapsed: 666.4895606040955 seconds

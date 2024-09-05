@@ -1,0 +1,820 @@
+D:\Workplace-Pycharm\.venv\Scripts\python.exe D:\Workplace-Pycharm\QuantitativeTransaction\SRC\sq\test\sq_test2_2_1_2.py
+2024-08-22 17:02:19.245078: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-22 17:02:21.959617: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+----------------------------------------
+python sdk version: 3.0.168
+c sdk version: 3.7.4
+----------------------------------------
+[INFO]  Start...
+[INFO]  2014-04-01 09:31:00+08:00 algo...
+[INFO]  2014-04-01 09:31:00+08:00 executing spend 2.7948522567749023 seconds
+[INFO]  2014-05-05 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601288
+[INFO]  buy_target: SHSE.600887
+[INFO]  2014-05-05 09:31:00+08:00 executing spend 2.7970478534698486 seconds
+[INFO]  2014-06-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601288
+[INFO]  2014-06-03 09:31:00+08:00 executing spend 1.926938772201538 seconds
+[INFO]  2014-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601288
+[INFO]  buy_target: SHSE.600030
+[INFO]  2014-07-01 09:31:00+08:00 executing spend 2.15712308883667 seconds
+[INFO]  2014-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601288
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600887
+[INFO]  2014-08-01 09:31:00+08:00 executing spend 1.8633520603179932 seconds
+[INFO]  2014-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601006
+[INFO]  buy_target: SHSE.601989
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600030
+[INFO]  2014-09-01 09:31:00+08:00 executing spend 3.1782584190368652 seconds
+[INFO]  2014-10-08 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601006
+[INFO]  buy_target: SHSE.601989
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600030
+[INFO]  2014-10-08 09:31:00+08:00 executing spend 1.824690580368042 seconds
+[INFO]  2014-11-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601328
+[INFO]  buy_target: SHSE.601169
+[INFO]  buy_target: SHSE.600000
+[INFO]  buy_target: SHSE.600036
+[INFO]  2014-11-03 09:31:00+08:00 executing spend 4.992939710617065 seconds
+[INFO]  2014-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601169
+[INFO]  buy_target: SHSE.601328
+[INFO]  buy_target: SHSE.600015
+[INFO]  buy_target: SHSE.601006
+[INFO]  2014-12-01 09:31:00+08:00 executing spend 2.6640748977661133 seconds
+[INFO]  2015-01-05 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.601088
+[INFO]  buy_target: SHSE.600019
+[INFO]  buy_target: SHSE.601998
+[INFO]  2015-01-05 09:31:00+08:00 executing spend 2.906097888946533 seconds
+[INFO]  2015-02-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.601088
+[INFO]  buy_target: SHSE.601766
+[INFO]  buy_target: SHSE.601998
+[INFO]  2015-02-02 09:31:00+08:00 executing spend 2.450869083404541 seconds
+[INFO]  2015-03-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600019
+[INFO]  buy_target: SHSE.601088
+[INFO]  buy_target: SHSE.601766
+[INFO]  2015-03-02 09:31:00+08:00 executing spend 2.2556488513946533 seconds
+[INFO]  2015-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601398
+[INFO]  buy_target: SHSE.601288
+[INFO]  buy_target: SHSE.600837
+[INFO]  buy_target: SHSE.601186
+[INFO]  buy_target: SHSE.600018
+[INFO]  2015-04-01 09:31:00+08:00 executing spend 2.403888463973999 seconds
+[INFO]  2015-05-04 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600999
+[INFO]  2015-05-04 09:31:00+08:00 executing spend 1.9898836612701416 seconds
+[INFO]  2015-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600637
+[INFO]  buy_target: SHSE.600837
+[INFO]  buy_target: SHSE.600485
+[INFO]  buy_target: SHSE.600999
+[INFO]  2015-06-01 09:31:00+08:00 executing spend 2.2373974323272705 seconds
+[INFO]  2015-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600837
+[INFO]  buy_target: SHSE.600999
+[INFO]  2015-07-01 09:31:00+08:00 executing spend 1.7760798931121826 seconds
+[INFO]  2015-08-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600485
+[INFO]  buy_target: SHSE.600999
+[INFO]  2015-08-03 09:31:00+08:00 executing spend 1.8081111907958984 seconds
+[INFO]  2015-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.601390
+[INFO]  buy_target: SHSE.601727
+[INFO]  2015-09-01 09:31:00+08:00 executing spend 2.726505994796753 seconds
+[INFO]  2015-10-08 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601390
+[INFO]  buy_target: SHSE.600837
+[INFO]  buy_target: SHSE.600028
+[INFO]  2015-10-08 09:31:00+08:00 executing spend 2.27583909034729 seconds
+[INFO]  2015-11-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600958
+[INFO]  buy_target: SHSE.601390
+[INFO]  buy_target: SHSE.601766
+[INFO]  buy_target: SHSE.600837
+[INFO]  2015-11-02 09:31:00+08:00 executing spend 2.2910847663879395 seconds
+[INFO]  2015-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600958
+[INFO]  buy_target: SHSE.601390
+[INFO]  buy_target: SHSE.600028
+[INFO]  2015-12-01 09:31:00+08:00 executing spend 2.193791151046753 seconds
+[INFO]  2016-01-04 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600958
+[INFO]  buy_target: SHSE.601727
+[INFO]  buy_target: SHSE.601390
+[INFO]  2016-01-04 09:31:00+08:00 executing spend 2.209348440170288 seconds
+[INFO]  2016-02-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601390
+[INFO]  buy_target: SHSE.600958
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601088
+[INFO]  buy_target: SHSE.601800
+[INFO]  2016-02-01 09:31:00+08:00 executing spend 2.1973695755004883 seconds
+[INFO]  2016-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600958
+[INFO]  buy_target: SHSE.601390
+[INFO]  buy_target: SHSE.601727
+[INFO]  2016-03-01 09:31:00+08:00 executing spend 2.129545211791992 seconds
+[INFO]  2016-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601989
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600010
+[INFO]  2016-04-01 09:31:00+08:00 executing spend 2.1161303520202637 seconds
+[INFO]  2016-05-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601006
+[INFO]  buy_target: SHSE.601211
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601766
+[INFO]  2016-05-03 09:31:00+08:00 executing spend 1.9978158473968506 seconds
+[INFO]  2016-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600958
+[INFO]  buy_target: SHSE.601166
+[INFO]  buy_target: SHSE.601390
+[INFO]  2016-06-01 09:31:00+08:00 executing spend 2.4887337684631348 seconds
+[INFO]  2016-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600837
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.601688
+[INFO]  buy_target: SHSE.600030
+[INFO]  2016-07-01 09:31:00+08:00 executing spend 2.4172005653381348 seconds
+[INFO]  2016-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600837
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.601688
+[INFO]  buy_target: SHSE.600030
+[INFO]  2016-08-01 09:31:00+08:00 executing spend 2.2637670040130615 seconds
+[INFO]  2016-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601988
+[INFO]  buy_target: SHSE.600000
+[INFO]  2016-09-01 09:31:00+08:00 executing spend 2.082934617996216 seconds
+[INFO]  2016-10-10 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600000
+[INFO]  buy_target: SHSE.601988
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600104
+[INFO]  2016-10-10 09:31:00+08:00 executing spend 1.8778886795043945 seconds
+[INFO]  2016-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600050
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.601390
+[INFO]  2016-11-01 09:31:00+08:00 executing spend 2.2891852855682373 seconds
+[INFO]  2016-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600050
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.601390
+[INFO]  2016-12-01 09:31:00+08:00 executing spend 2.009239912033081 seconds
+[INFO]  2017-01-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600050
+[INFO]  buy_target: SHSE.601669
+[INFO]  buy_target: SHSE.600028
+[INFO]  2017-01-03 09:31:00+08:00 executing spend 1.9019958972930908 seconds
+[INFO]  2017-02-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600050
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.601390
+[INFO]  2017-02-03 09:31:00+08:00 executing spend 1.840355634689331 seconds
+[INFO]  2017-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600050
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.601390
+[INFO]  2017-03-01 09:31:00+08:00 executing spend 1.626413106918335 seconds
+[INFO]  2017-04-05 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.601318
+[INFO]  buy_target: SHSE.601669
+[INFO]  buy_target: SHSE.600104
+[INFO]  2017-04-05 09:31:00+08:00 executing spend 1.8111183643341064 seconds
+[INFO]  2017-05-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600340
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601006
+[INFO]  buy_target: SHSE.601318
+[INFO]  buy_target: SHSE.600276
+[INFO]  2017-05-02 09:31:00+08:00 executing spend 1.745192050933838 seconds
+[INFO]  2017-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601998
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600018
+[INFO]  2017-06-01 09:31:00+08:00 executing spend 1.3944730758666992 seconds
+[INFO]  2017-07-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601998
+[INFO]  2017-07-03 09:31:00+08:00 executing spend 1.4283912181854248 seconds
+[INFO]  2017-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601998
+[INFO]  buy_target: SHSE.600018
+[INFO]  2017-08-01 09:31:00+08:00 executing spend 1.405273199081421 seconds
+[INFO]  2017-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601229
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.600010
+[INFO]  buy_target: SHSE.600048
+[INFO]  2017-09-01 09:31:00+08:00 executing spend 1.8169662952423096 seconds
+[INFO]  2017-10-09 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601229
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.600010
+[INFO]  buy_target: SHSE.600048
+[INFO]  2017-10-09 09:31:00+08:00 executing spend 1.7121541500091553 seconds
+[INFO]  2017-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600050
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601186
+[INFO]  2017-11-01 09:31:00+08:00 executing spend 1.7090692520141602 seconds
+[INFO]  2017-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600036
+[INFO]  2017-12-01 09:31:00+08:00 executing spend 1.458387851715088 seconds
+[INFO]  2018-01-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600036
+[INFO]  2018-01-02 09:31:00+08:00 executing spend 1.48874831199646 seconds
+[INFO]  2018-02-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600036
+[INFO]  2018-02-01 09:31:00+08:00 executing spend 1.5926361083984375 seconds
+[INFO]  2018-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601989
+[INFO]  2018-03-01 09:31:00+08:00 executing spend 1.5349795818328857 seconds
+[INFO]  2018-04-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601989
+[INFO]  buy_target: SHSE.601328
+[INFO]  buy_target: SHSE.601668
+[INFO]  2018-04-02 09:31:00+08:00 executing spend 1.5322861671447754 seconds
+[INFO]  2018-05-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600518
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.601328
+[INFO]  2018-05-02 09:31:00+08:00 executing spend 1.7053124904632568 seconds
+[INFO]  2018-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600518
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600018
+[INFO]  2018-06-01 09:31:00+08:00 executing spend 1.7271809577941895 seconds
+[INFO]  2018-07-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.600518
+[INFO]  buy_target: SHSE.601888
+[INFO]  2018-07-02 09:31:00+08:00 executing spend 1.8317975997924805 seconds
+[INFO]  2018-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.601186
+[INFO]  buy_target: SHSE.600104
+[INFO]  buy_target: SHSE.601888
+[INFO]  2018-08-01 09:31:00+08:00 executing spend 1.5072357654571533 seconds
+[INFO]  2018-09-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601006
+[INFO]  buy_target: SHSE.601186
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600309
+[INFO]  2018-09-03 09:31:00+08:00 executing spend 1.7071952819824219 seconds
+[INFO]  2018-10-08 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601186
+[INFO]  buy_target: SHSE.600900
+[INFO]  buy_target: SHSE.601800
+[INFO]  buy_target: SHSE.601628
+[INFO]  2018-10-08 09:31:00+08:00 executing spend 1.8005156517028809 seconds
+[INFO]  2018-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.600036
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601169
+[INFO]  2018-11-01 09:31:00+08:00 executing spend 1.6001002788543701 seconds
+[INFO]  2018-12-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601138
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.603288
+[INFO]  2018-12-03 09:31:00+08:00 executing spend 1.819582462310791 seconds
+[INFO]  2019-01-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.601169
+[INFO]  buy_target: SHSE.603288
+[INFO]  2019-01-02 09:31:00+08:00 executing spend 1.4986279010772705 seconds
+[INFO]  2019-02-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.601169
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.600036
+[INFO]  2019-02-01 09:31:00+08:00 executing spend 1.5589842796325684 seconds
+[INFO]  2019-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601800
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.601169
+[INFO]  2019-03-01 09:31:00+08:00 executing spend 1.441232681274414 seconds
+[INFO]  2019-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601169
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601888
+[INFO]  2019-04-01 09:31:00+08:00 executing spend 1.5018768310546875 seconds
+[INFO]  2019-05-06 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.601668
+[INFO]  2019-05-06 09:31:00+08:00 executing spend 1.4996449947357178 seconds
+[INFO]  2019-06-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.603288
+[INFO]  2019-06-03 09:31:00+08:00 executing spend 1.4800174236297607 seconds
+[INFO]  2019-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600009
+[INFO]  2019-07-01 09:31:00+08:00 executing spend 1.4945311546325684 seconds
+[INFO]  2019-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600276
+[INFO]  2019-08-01 09:31:00+08:00 executing spend 1.4859068393707275 seconds
+[INFO]  2019-09-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600900
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600018
+[INFO]  2019-09-02 09:31:00+08:00 executing spend 1.6010653972625732 seconds
+[INFO]  2019-10-08 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601766
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600018
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.601888
+[INFO]  2019-10-08 09:31:00+08:00 executing spend 1.5671026706695557 seconds
+[INFO]  2019-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  2019-11-01 09:31:00+08:00 executing spend 1.4396576881408691 seconds
+[INFO]  2019-12-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  2019-12-02 09:31:00+08:00 executing spend 1.516594648361206 seconds
+[INFO]  2020-01-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  2020-01-02 09:31:00+08:00 executing spend 1.531665325164795 seconds
+[INFO]  2020-02-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  2020-02-03 09:31:00+08:00 executing spend 1.4858043193817139 seconds
+[INFO]  2020-03-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  2020-03-02 09:31:00+08:00 executing spend 1.3892576694488525 seconds
+[INFO]  2020-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.603259
+[INFO]  2020-04-01 09:31:00+08:00 executing spend 1.524993658065796 seconds
+[INFO]  2020-05-06 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600276
+[INFO]  2020-05-06 09:31:00+08:00 executing spend 1.5252876281738281 seconds
+[INFO]  2020-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.603501
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.601816
+[INFO]  2020-06-01 09:31:00+08:00 executing spend 1.7055106163024902 seconds
+[INFO]  2020-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600900
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.600887
+[INFO]  2020-07-01 09:31:00+08:00 executing spend 1.8085768222808838 seconds
+[INFO]  2020-08-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601816
+[INFO]  buy_target: SHSE.601688
+[INFO]  2020-08-03 09:31:00+08:00 executing spend 1.653130292892456 seconds
+[INFO]  2020-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601816
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600887
+[INFO]  2020-09-01 09:31:00+08:00 executing spend 1.4870469570159912 seconds
+[INFO]  2020-10-09 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601816
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601888
+[INFO]  2020-10-09 09:31:00+08:00 executing spend 1.4739909172058105 seconds
+[INFO]  2020-11-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600900
+[INFO]  buy_target: SHSE.600690
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.601633
+[INFO]  2020-11-02 09:31:00+08:00 executing spend 2.3058130741119385 seconds
+[INFO]  2020-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601818
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.601857
+[INFO]  buy_target: SHSE.600900
+[INFO]  2020-12-01 09:31:00+08:00 executing spend 2.0399656295776367 seconds
+[INFO]  2021-01-04 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600893
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.601857
+[INFO]  buy_target: SHSE.601012
+[INFO]  2021-01-04 09:31:00+08:00 executing spend 2.176718235015869 seconds
+[INFO]  2021-02-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601818
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.601857
+[INFO]  buy_target: SHSE.601012
+[INFO]  2021-02-01 09:31:00+08:00 executing spend 1.7031545639038086 seconds
+[INFO]  2021-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600893
+[INFO]  buy_target: SHSE.601818
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.600019
+[INFO]  2021-03-01 09:31:00+08:00 executing spend 1.7182950973510742 seconds
+[INFO]  2021-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.600309
+[INFO]  buy_target: SHSE.600031
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600276
+[INFO]  2021-04-01 09:31:00+08:00 executing spend 1.7457654476165771 seconds
+[INFO]  2021-05-06 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.600436
+[INFO]  2021-05-06 09:31:00+08:00 executing spend 1.5887293815612793 seconds
+[INFO]  2021-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.603501
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.603288
+[INFO]  2021-06-01 09:31:00+08:00 executing spend 1.538705587387085 seconds
+[INFO]  2021-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600438
+[INFO]  buy_target: SHSE.600436
+[INFO]  2021-07-01 09:31:00+08:00 executing spend 1.4818477630615234 seconds
+[INFO]  2021-08-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.603392
+[INFO]  buy_target: SHSE.600436
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.603501
+[INFO]  2021-08-02 09:31:00+08:00 executing spend 2.081040620803833 seconds
+[INFO]  2021-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.601766
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600438
+[INFO]  2021-09-01 09:31:00+08:00 executing spend 1.5312635898590088 seconds
+[INFO]  2021-10-08 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600438
+[INFO]  buy_target: SHSE.600406
+[INFO]  2021-10-08 09:31:00+08:00 executing spend 1.5296506881713867 seconds
+[INFO]  2021-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600438
+[INFO]  buy_target: SHSE.600406
+[INFO]  2021-11-01 09:31:00+08:00 executing spend 1.5951924324035645 seconds
+[INFO]  2021-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603799
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600438
+[INFO]  2021-12-01 09:31:00+08:00 executing spend 1.595033884048462 seconds
+[INFO]  2022-01-04 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600900
+[INFO]  2022-01-04 09:31:00+08:00 executing spend 1.3928124904632568 seconds
+[INFO]  2022-02-07 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600690
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.603259
+[INFO]  2022-02-07 09:31:00+08:00 executing spend 1.497541904449463 seconds
+[INFO]  2022-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600690
+[INFO]  buy_target: SHSE.600111
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.600276
+[INFO]  2022-03-01 09:31:00+08:00 executing spend 1.5610723495483398 seconds
+[INFO]  2022-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.600309
+[INFO]  buy_target: SHSE.600406
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.600104
+[INFO]  2022-04-01 09:31:00+08:00 executing spend 1.5106432437896729 seconds
+[INFO]  2022-05-05 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.601138
+[INFO]  buy_target: SHSE.600436
+[INFO]  2022-05-05 09:31:00+08:00 executing spend 1.3848886489868164 seconds
+[INFO]  2022-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600436
+[INFO]  buy_target: SHSE.600406
+[INFO]  2022-06-01 09:31:00+08:00 executing spend 1.4071452617645264 seconds
+[INFO]  2022-07-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600406
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600436
+[INFO]  2022-07-01 09:31:00+08:00 executing spend 1.4193401336669922 seconds
+[INFO]  2022-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.600406
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600436
+[INFO]  2022-08-01 09:31:00+08:00 executing spend 1.4090373516082764 seconds
+[INFO]  2022-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600436
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600809
+[INFO]  2022-09-01 09:31:00+08:00 executing spend 1.360811471939087 seconds
+[INFO]  2022-10-10 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600009
+[INFO]  buy_target: SHSE.601888
+[INFO]  buy_target: SHSE.600809
+[INFO]  2022-10-10 09:31:00+08:00 executing spend 1.2941863536834717 seconds
+[INFO]  2022-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600900
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.601668
+[INFO]  2022-11-01 09:31:00+08:00 executing spend 1.5991756916046143 seconds
+[INFO]  2022-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601857
+[INFO]  2022-12-01 09:31:00+08:00 executing spend 1.8853721618652344 seconds
+[INFO]  2023-01-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.601668
+[INFO]  2023-01-03 09:31:00+08:00 executing spend 1.701566219329834 seconds
+[INFO]  2023-02-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.600030
+[INFO]  buy_target: SHSE.601668
+[INFO]  2023-02-01 09:31:00+08:00 executing spend 2.0477516651153564 seconds
+[INFO]  2023-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600028
+[INFO]  buy_target: SHSE.600887
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.601088
+[INFO]  2023-03-01 09:31:00+08:00 executing spend 1.529536485671997 seconds
+[INFO]  2023-04-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600031
+[INFO]  2023-04-03 09:31:00+08:00 executing spend 1.4204895496368408 seconds
+[INFO]  2023-05-04 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.600438
+[INFO]  buy_target: SHSE.601628
+[INFO]  buy_target: SHSE.600036
+[INFO]  buy_target: SHSE.603259
+[INFO]  2023-05-04 09:31:00+08:00 executing spend 1.5676689147949219 seconds
+[INFO]  2023-06-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600438
+[INFO]  buy_target: SHSE.601628
+[INFO]  buy_target: SHSE.600036
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600519
+[INFO]  2023-06-01 09:31:00+08:00 executing spend 1.6121318340301514 seconds
+[INFO]  2023-07-03 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.601728
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.600028
+[INFO]  2023-07-03 09:31:00+08:00 executing spend 1.5863978862762451 seconds
+[INFO]  2023-08-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.601668
+[INFO]  buy_target: SHSE.601728
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.600028
+[INFO]  2023-08-01 09:31:00+08:00 executing spend 1.4897987842559814 seconds
+[INFO]  2023-09-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.600436
+[INFO]  buy_target: SHSE.601888
+[INFO]  2023-09-01 09:31:00+08:00 executing spend 1.2931067943572998 seconds
+[INFO]  2023-10-09 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.600436
+[INFO]  2023-10-09 09:31:00+08:00 executing spend 1.3081586360931396 seconds
+[INFO]  2023-11-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.603259
+[INFO]  buy_target: SHSE.600436
+[INFO]  buy_target: SHSE.600406
+[INFO]  2023-11-01 09:31:00+08:00 executing spend 1.2687413692474365 seconds
+[INFO]  2023-12-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.600436
+[INFO]  buy_target: SHSE.600406
+[INFO]  2023-12-01 09:31:00+08:00 executing spend 1.2923686504364014 seconds
+[INFO]  2024-01-02 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.601633
+[INFO]  buy_target: SHSE.688111
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.600436
+[INFO]  2024-01-02 09:31:00+08:00 executing spend 1.3361494541168213 seconds
+[INFO]  2024-02-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.601066
+[INFO]  buy_target: SHSE.600406
+[INFO]  buy_target: SHSE.600276
+[INFO]  2024-02-01 09:31:00+08:00 executing spend 1.327293872833252 seconds
+[INFO]  2024-03-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600519
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.600406
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.603288
+[INFO]  2024-03-01 09:31:00+08:00 executing spend 1.244821548461914 seconds
+[INFO]  2024-04-01 09:31:00+08:00 algo...
+[INFO]  buy_target: SHSE.600809
+[INFO]  buy_target: SHSE.603288
+[INFO]  buy_target: SHSE.600276
+[INFO]  buy_target: SHSE.688041
+[INFO]  buy_target: SHSE.600519
+[INFO]  2024-04-01 09:31:00+08:00 executing spend 1.3371472358703613 seconds
+[INFO]  Done! From start, time elapsed: 220.87506985664368 seconds
+[INFO]  test_model_6_6 backtest finished: {'account_id': '16362727-4aff-11ef-8fae-80304917db79', 'pnl_ratio': 0.058524379192590716, 'pnl_ratio_annual': 0.005846031309604711, 'sharp_ratio': 0.014527156442272695, 'max_drawdown': 0.6909399139865626, 'risk_ratio': 0.9991410709978139, 'open_count': 530, 'close_count': 525, 'win_count': 261, 'lose_count': 264, 'win_ratio': 0.49714285714285716, 'calmar_ratio': 0.008460983641651949, 'created_at': None, 'updated_at': None}
+
+Process finished with exit code 0

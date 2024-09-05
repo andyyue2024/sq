@@ -1,0 +1,22 @@
+[INFO]  Start...
+[DEBUG]  GMModel, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  AllSymbolSelector, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  BlackFilter, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  GMOrder, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  AllSymbolSelector, target list len: 47
+[DEBUG]  BlackFilter, target list len: 47
+[DEBUG]  GMOrder, target list len: 0
+[DEBUG]  GMModel, target list len: 0
+[DEBUG]  SVMModel, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  WhiteFilter, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  TopNFilter, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  WhiteFilter, target list len: 0
+[DEBUG]  TopNFilter, target list len: 0
+[DEBUG]  SVMModel, target list len: 0
+[DEBUG]  Model, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  Model, target list len: 0
+[DEBUG]  GMModel, prediction: Ellipsis
+[DEBUG]  SVMModel, prediction: Ellipsis
+[DEBUG]  Model, prediction: Ellipsis
+[INFO]  Done! From start, time elapsed: 7.906094551086426 seconds
+[INFO]  AAA backtest finished: {'account_id': '9f53e15f-6870-11e8-801c-4cedfb681747', 'pnl_ratio': 0.0, 'pnl_ratio_annual': 0.0, 'sharp_ratio': 0.0, 'max_drawdown': 0.0, 'risk_ratio': 0.0, 'open_count': 0, 'close_count': 0, 'win_count': 0, 'lose_count': 0, 'win_ratio': 0.0, 'calmar_ratio': 0.0, 'created_at': None, 'updated_at': None}

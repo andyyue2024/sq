@@ -1,0 +1,51 @@
+D:\Workplace-Pycharm\.venv\Scripts\python.exe D:\Workplace-Pycharm\QuantitativeTransaction\SRC\sq\test\sq_test.py
+2024-08-14 15:57:28.932358: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-14 15:57:30.414789: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+----------------------------------------
+python sdk version: 3.0.168
+c sdk version: 3.7.4
+----------------------------------------
+[INFO]  Start...
+[DEBUG]  GMModel, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  AllSymbolSelector, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  BlackFilter, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  GMOrder, time tick: 2014-08-01 09:30:00+08:00
+[DEBUG]  AllSymbolSelector, target list len: 47
+[DEBUG]  BlackFilter, target list len: 47
+[DEBUG]  GMOrder, target list len: 0
+[DEBUG]  GMModel, target list len: 0
+
+[INFO]  2014-08-01 09:31:00+08:00 algo...
+[DEBUG]  GMModel, time tick: 2014-08-01 09:31:00+08:00
+[DEBUG]  AllSymbolSelector, time tick: 2014-08-01 09:31:00+08:00
+[DEBUG]  BlackFilter, time tick: 2014-08-01 09:31:00+08:00
+[DEBUG]  GMOrder, time tick: 2014-08-01 09:31:00+08:00
+[DEBUG]  AllSymbolSelector, target list len: 47
+[DEBUG]  BlackFilter, target list len: 47
+[DEBUG]  GMOrder, target list len: 0
+[DEBUG]  GMModel, target list len: 0
+[DEBUG]  GMModel, prediction: Ellipsis
+
+[INFO]  2014-08-04 09:31:00+08:00 algo...
+[DEBUG]  GMModel, time tick: 2014-08-04 09:31:00+08:00
+[DEBUG]  AllSymbolSelector, time tick: 2014-08-04 09:31:00+08:00
+[DEBUG]  BlackFilter, time tick: 2014-08-04 09:31:00+08:00
+[DEBUG]  GMOrder, time tick: 2014-08-04 09:31:00+08:00
+[DEBUG]  AllSymbolSelector, target list len: 47
+[DEBUG]  BlackFilter, target list len: 47
+[DEBUG]  GMOrder, target list len: 0
+[DEBUG]  GMModel, target list len: 0
+[DEBUG]  GMModel, prediction: Ellipsis
+
+[INFO]  2014-08-05 09:31:00+08:00 algo...
+[DEBUG]  GMModel, time tick: 2014-08-05 09:31:00+08:00
+[DEBUG]  AllSymbolSelector, time tick: 2014-08-05 09:31:00+08:00
+[DEBUG]  BlackFilter, time tick: 2014-08-05 09:31:00+08:00
+[DEBUG]  GMOrder, time tick: 2014-08-05 09:31:00+08:00
+[DEBUG]  AllSymbolSelector, target list len: 46
+[DEBUG]  BlackFilter, target list len: 46
+[DEBUG]  GMOrder, target list len: 0
+[DEBUG]  GMModel, target list len: 0
+[DEBUG]  GMModel, prediction: Ellipsis
+
+Process finished with exit code -1

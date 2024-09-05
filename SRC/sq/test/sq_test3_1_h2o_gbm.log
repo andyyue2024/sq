@@ -1,0 +1,312 @@
+D:\Workplace-Pycharm\.venv\Scripts\python.exe D:\Workplace-Pycharm\QuantitativeTransaction\SRC\sq\test\sq_test3_1.py
+2024-08-30 12:43:19.510381: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-08-30 12:43:20.843729: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+----------------------------------------
+python sdk version: 3.0.168
+c sdk version: 3.7.4
+----------------------------------------
+[INFO]  Start...
+[INFO]  SVMTrainer train...
+Checking whether there is an H2O instance running at http://localhost:54321..... not found.
+Attempting to start a local H2O server...
+; OpenJDK 64-Bit Server VM 18.9 (build 11.0.2+9, mixed mode)
+  Starting server from D:\Workplace-Pycharm\.venv\Lib\site-packages\h2o\backend\bin\h2o.jar
+  Ice root: C:\Users\Andy\AppData\Local\Temp\tmp1y7yhkzy
+  JVM stdout: C:\Users\Andy\AppData\Local\Temp\tmp1y7yhkzy\h2o_Andy_started_from_python.out
+  JVM stderr: C:\Users\Andy\AppData\Local\Temp\tmp1y7yhkzy\h2o_Andy_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+--------------------------  -----------------------------
+H2O_cluster_uptime:         03 secs
+H2O_cluster_timezone:       Asia/Shanghai
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.46.0.4
+H2O_cluster_version_age:    1 month and 20 days
+H2O_cluster_name:           H2O_from_python_Andy_rknh7l
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    3.844 Gb
+H2O_cluster_total_cores:    16
+H2O_cluster_allowed_cores:  16
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+Python_version:             3.12.3 final
+--------------------------  -----------------------------
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+train shape: (3089, 24)
+test shape: (749, 24)
+gbm Grid Build progress: |███████████████████████████████████████████████████████| (done) 100%
+Hyper-Parameter Search Summary: ordered by increasing logloss
+    learn_rate    max_depth    ntrees    model_ids                                                     logloss
+--  ------------  -----------  --------  ------------------------------------------------------------  ---------
+    0.5           5            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_60  0.0116967
+    0.5           4            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_57  0.031993
+    0.5           5            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_45  0.0648206
+    0.5           3            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_54  0.0956155
+    0.5           4            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_42  0.113193
+    0.5           5            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_30  0.169811
+    0.1           5            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_59  0.208074
+    0.5           3            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_39  0.208986
+    0.5           4            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_27  0.229469
+    0.5           2            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_51  0.239089
+    0.1           4            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_56  0.285492
+    0.1           5            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_44  0.335461
+    0.5           3            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_24  0.339647
+    0.5           2            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_36  0.359075
+    0.1           3            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_53  0.38383
+    0.1           4            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_41  0.410663
+    0.5           5            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_15  0.45151
+    0.1           5            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_29  0.451789
+    0.5           2            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_21  0.469799
+    0.1           3            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_38  0.494255
+    0.1           2            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_50  0.500708
+    0.5           4            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_12  0.513941
+    0.1           4            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_26  0.520765
+    0.5           3            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_9   0.55585
+    0.1           3            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_23  0.572431
+    0.01          5            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_58  0.57702
+    0.1           2            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_35  0.577472
+    0.5           1            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_48  0.582064
+    0.5           2            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_6   0.613186
+    0.01          4            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_55  0.613713
+    0.5           1            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_33  0.615339
+    0.1           2            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_20  0.623749
+    0.01          3            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_52  0.639992
+    0.5           1            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_18  0.640654
+    0.1           5            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_14  0.642987
+    0.01          5            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_43  0.645074
+    0.1           1            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_47  0.652424
+    0.1           4            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_11  0.656141
+    0.01          4            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_40  0.659352
+    0.01          2            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_49  0.664258
+    0.1           1            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_32  0.666403
+    0.01          3            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_37  0.66982
+    0.1           3            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_8   0.671425
+    0.01          5            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_28  0.674066
+    0.5           1            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_3   0.674069
+    0.1           1            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_17  0.675994
+    0.01          4            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_25  0.678116
+    0.1           2            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_5   0.679351
+    0.01          2            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_34  0.67954
+    0.01          3            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_22  0.681114
+    0.01          1            200       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_46  0.683601
+    0.01          2            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_19  0.686383
+    0.1           1            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_2   0.686739
+    0.01          1            100       Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_31  0.68685
+    0.01          5            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_13  0.688312
+    0.01          1            50        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_16  0.689025
+    0.01          4            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_10  0.689546
+    0.01          3            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_7   0.690273
+    0.01          2            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_4   0.690777
+    0.01          1            10        Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_1   0.691446
+********************
+Best Model: Model Details
+=============
+H2OGradientBoostingEstimator : Gradient Boosting Machine
+Model Key: Grid_GBM_py_3_sid_ad52_model_python_1724993029821_1_model_57
+
+
+Model Summary:
+    number_of_trees    number_of_internal_trees    model_size_in_bytes    min_depth    max_depth    mean_depth    min_leaves    max_leaves    mean_leaves
+--  -----------------  --------------------------  ---------------------  -----------  -----------  ------------  ------------  ------------  -------------
+    200                200                         41314                  4            4            4             6             16            11.78
+
+ModelMetricsBinomial: gbm
+** Reported on train data. **
+
+MSE: 0.0023674648983843904
+RMSE: 0.04865660179651257
+LogLoss: 0.03199295532123585
+Mean Per-Class Error: 0.0
+AUC: 1.0
+AUCPR: 1.0
+Gini: 1.0
+
+Confusion Matrix (Act/Pred) for max f1 @ threshold = 0.6363062983870128
+       0     1     Error    Rate
+-----  ----  ----  -------  ------------
+0      1610  0     0        (0.0/1610.0)
+1      0     1479  0        (0.0/1479.0)
+Total  1610  1479  0        (0.0/3089.0)
+
+Maximum Metrics: Maximum metrics at their respective thresholds
+metric                       threshold    value     idx
+---------------------------  -----------  --------  -----
+max f1                       0.636306     1         201
+max f2                       0.636306     1         201
+max f0point5                 0.636306     1         201
+max accuracy                 0.636306     1         201
+max precision                0.999847     1         0
+max recall                   0.636306     1         201
+max specificity              0.999847     1         0
+max absolute_mcc             0.636306     1         201
+max min_per_class_accuracy   0.636306     1         201
+max mean_per_class_accuracy  0.636306     1         201
+max tns                      0.999847     1610      0
+max fns                      0.999847     1472      0
+max fps                      0.000226656  1610      399
+max tps                      0.636306     1479      201
+max tnr                      0.999847     1         0
+max fnr                      0.999847     0.995267  0
+max fpr                      0.000226656  1         399
+max tpr                      0.636306     1         201
+
+Gains/Lift Table: Avg response rate: 47.88 %, avg score: 47.88 %
+group    cumulative_data_fraction    lower_threshold    lift     cumulative_lift    response_rate    score       cumulative_response_rate    cumulative_score    capture_rate    cumulative_capture_rate    gain     cumulative_gain    kolmogorov_smirnov
+-------  --------------------------  -----------------  -------  -----------------  ---------------  ----------  --------------------------  ------------------  --------------  -------------------------  -------  -----------------  --------------------
+1        0.0103593                   0.998913           2.08857  2.08857            1                0.999399    1                           0.999399            0.0216362       0.0216362                  108.857  108.857            0.0216362
+2        0.0200712                   0.998113           2.08857  2.08857            1                0.998438    1                           0.998934            0.020284        0.0419202                  108.857  108.857            0.0419202
+3        0.0301068                   0.997645           2.08857  2.08857            1                0.997876    1                           0.998581            0.0209601       0.0628803                  108.857  108.857            0.0628803
+4        0.0401424                   0.997212           2.08857  2.08857            1                0.997456    1                           0.9983              0.0209601       0.0838404                  108.857  108.857            0.0838404
+5        0.0501781                   0.996559           2.08857  2.08857            1                0.996953    1                           0.998031            0.0209601       0.104801                   108.857  108.857            0.104801
+6        0.100032                    0.993417           2.08857  2.08857            1                0.994987    1                           0.996514            0.104124        0.208925                   108.857  108.857            0.208925
+7        0.150534                    0.989623           2.08857  2.08857            1                0.991305    1                           0.994766            0.105477        0.314402                   108.857  108.857            0.314402
+8        0.200065                    0.986364           2.08857  2.08857            1                0.988041    1                           0.993102            0.103448        0.41785                    108.857  108.857            0.41785
+9        0.300097                    0.973927           2.08857  2.08857            1                0.980609    1                           0.988937            0.208925        0.626775                   108.857  108.857            0.626775
+10       0.400129                    0.941757           2.08857  2.08857            1                0.960736    1                           0.981887            0.208925        0.8357                     108.857  108.857            0.8357
+11       0.500162                    0.11924            1.64247  1.99935            0.786408         0.73967     0.957282                    0.933444            0.1643          1                          64.247   99.9353            0.959006
+12       0.599871                    0.0387618          0        1.66703            0                0.0630613   0.798165                    0.788771            0               1                          -100     66.7026            0.767702
+13       0.699903                    0.0214011          0        1.42877            0                0.0289097   0.684089                    0.680169            0               1                          -100     42.877             0.575776
+14       0.799935                    0.0118174          0        1.2501             0                0.0157973   0.598543                    0.597089            0               1                          -100     25.0101            0.383851
+15       0.899968                    0.00572598         0        1.11115            0                0.00839873  0.532014                    0.531656            0               1                          -100     11.1151            0.191925
+16       1                           7.83105e-05        0        1                  0                0.00323207  0.478796                    0.478796            0               1                          -100     0                  0
+
+Scoring History:
+     timestamp            duration    number_of_trees    training_rmse         training_logloss      training_auc        training_pr_auc     training_lift       training_classification_error
+---  -------------------  ----------  -----------------  --------------------  --------------------  ------------------  ------------------  ------------------  -------------------------------
+     2024-08-30 12:44:27  31.343 sec  0.0                0.49955017645567135   0.692247668414005     0.5                 0.4787957267724182  1.0                 0.5212042732275818
+     2024-08-30 12:44:27  31.348 sec  1.0                0.49461206826371734   0.6818651261643184    0.5347112158206612  0.5300443135264366  1.614876309571109   0.5033991583036581
+     2024-08-30 12:44:27  31.353 sec  2.0                0.4805593109092347    0.6530760423483813    0.6510036998307569  0.6359805157000817  2.0885733603786343  0.44674651990935577
+     2024-08-30 12:44:27  31.357 sec  3.0                0.4682043976275562    0.6284928357539581    0.7138248102839336  0.6946690171936929  2.0885733603786343  0.38070573000971186
+     2024-08-30 12:44:27  31.362 sec  4.0                0.45806278378603377   0.6078523060908381    0.7461934998887112  0.7326437931710496  2.0885733603786343  0.366461638070573
+     2024-08-30 12:44:27  31.366 sec  5.0                0.45570139087861306   0.6024245630605521    0.7494198279011755  0.7379925712451564  2.0885733603786343  0.3654904499838135
+     2024-08-30 12:44:27  31.371 sec  6.0                0.4431544791877249    0.5784719183213767    0.7942690419496133  0.7846684934754974  2.0885733603786343  0.3182259630948527
+     2024-08-30 12:44:27  31.376 sec  7.0                0.4341504427556764    0.561156009505887     0.8162452387251753  0.8133550354807821  2.0885733603786343  0.3004208481709291
+     2024-08-30 12:44:27  31.381 sec  8.0                0.4220197237592271    0.5384367837731157    0.8442875201054935  0.8374437309778521  2.0885733603786343  0.2699902881191324
+     2024-08-30 12:44:27  31.386 sec  9.0                0.4174594686200517    0.5292436923493626    0.8521348569412773  0.8472564019652925  2.0885733603786343  0.26124959533829717
+---  ---                  ---         ---                ---                   ---                   ---                 ---                 ---                 ---
+     2024-08-30 12:44:28  32.862 sec  191.0              0.054132013280982626  0.03597851004560244   1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.871 sec  192.0              0.05356508379782783   0.03552544141940278   1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.880 sec  193.0              0.052414272623862806  0.034969019553505246  1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.889 sec  194.0              0.052076826450893114  0.034635756414863134  1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.898 sec  195.0              0.05174142601815891   0.034361432268214906  1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.909 sec  196.0              0.05139420677006062   0.03395554720896283   1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.919 sec  197.0              0.05068044512870467   0.03348560481776335   1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.928 sec  198.0              0.04975796282357916   0.03294782659041504   1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.937 sec  199.0              0.049108826356683066  0.03236865458941158   1.0                 1.0                 2.0885733603786343  0.0
+     2024-08-30 12:44:28  32.947 sec  200.0              0.04865660179651257   0.03199295532123585   1.0                 1.0                 2.0885733603786343  0.0
+[201 rows x 10 columns]
+
+
+Variable Importances:
+variable    relative_importance    scaled_importance    percentage
+----------  ---------------------  -------------------  --------------------
+close       172.6938018798828      1.0                  0.1776941514584091
+ma10        67.60105895996094      0.3914504065813599   0.06955844783552399
+ma75        54.31769561767578      0.31453181889791537  0.05589046466573508
+ma5         54.069095611572266     0.31309227675223705  0.05563466644567015
+ma100       53.388240814208984     0.30914972183740086  0.05493409749550015
+ma20        51.273040771484375     0.2969014534010163   0.05275765182886199
+ma50        42.74066925048828      0.24749393889779875  0.0439782254635437
+ma15        41.802181243896484     0.2420595342094095   0.04301256353375878
+ma55        41.764705657958984     0.24184252823971314  0.04297400284211217
+ma70        36.35647201538086      0.21052563334420424  0.037409173777342535
+---         ---                    ---                  ---
+ma65        32.94166946411133      0.19075189210915577  0.033895495607422436
+ma3         31.857868194580078     0.18447603705394605  0.03278031286871098
+ma30        31.12571907043457      0.1802364574270249   0.03202696436436486
+ma80        30.832040786743164     0.1785358851974803   0.031724782625042205
+ma25        30.65502166748047      0.17751083903290618  0.03154263791662251
+ma40        30.055130004882812     0.1740371089043929   0.03092537638904083
+ma90        29.13370704650879      0.16870152101215966  0.029977273625998686
+ma60        25.723752975463867     0.14895585536622805  0.026468584324063408
+ma45        23.719968795776367     0.13735275115591464  0.02440678056712827
+ma85        21.850669860839844     0.1265283966360187   0.022483356075630366
+[22 rows x 4 columns]
+
+gbm prediction progress: |███████████████████████████████████████████████████████| (done) 100%
+********************
+predictions.head:    predict         p0         p1
+        0  0.985459   0.0145409
+        0  0.939141   0.0608592
+        1  0.0101315  0.989868
+        1  0.294086   0.705914
+        1  0.32837    0.67163
+        0  0.482901   0.517099
+        0  0.965462   0.0345377
+        0  0.977759   0.0222409
+        1  0.127626   0.872374
+        1  0.0121104  0.98789
+[10 rows x 3 columns]
+
+********************
+metrics: ModelMetricsBinomial: gbm
+** Reported on test data. **
+
+MSE: 0.0867623122580806
+RMSE: 0.2945544300432105
+LogLoss: 0.2901752611573526
+Mean Per-Class Error: 0.10989309010976463
+AUC: 0.9500314021039409
+AUCPR: 0.9465890655838614
+Gini: 0.9000628042078818
+
+Confusion Matrix (Act/Pred) for max f1 @ threshold = 0.37323472135059554
+       0    1    Error    Rate
+-----  ---  ---  -------  ------------
+0      332  54   0.1399   (54.0/386.0)
+1      29   334  0.0799   (29.0/363.0)
+Total  361  388  0.1108   (83.0/749.0)
+
+Maximum Metrics: Maximum metrics at their respective thresholds
+metric                       threshold    value     idx
+---------------------------  -----------  --------  -----
+max f1                       0.373235     0.889481  227
+max f2                       0.103007     0.921671  294
+max f0point5                 0.772589     0.899809  151
+max accuracy                 0.373235     0.889186  227
+max precision                0.999861     1         0
+max recall                   0.00501105   1         388
+max specificity              0.999861     1         0
+max absolute_mcc             0.373235     0.780353  227
+max min_per_class_accuracy   0.509383     0.88342   206
+max mean_per_class_accuracy  0.373235     0.890107  227
+max tns                      0.999861     386       0
+max fns                      0.999861     362       0
+max fps                      0.000325938  386       399
+max tps                      0.00501105   363       388
+max tnr                      0.999861     1         0
+max fnr                      0.999861     0.997245  0
+max fpr                      0.000325938  1         399
+max tpr                      0.00501105   1         388
+
+Gains/Lift Table: Avg response rate: 48.46 %, avg score: 48.04 %
+group    cumulative_data_fraction    lower_threshold    lift       cumulative_lift    response_rate    score       cumulative_response_rate    cumulative_score    capture_rate    cumulative_capture_rate    gain      cumulative_gain    kolmogorov_smirnov
+-------  --------------------------  -----------------  ---------  -----------------  ---------------  ----------  --------------------------  ------------------  --------------  -------------------------  --------  -----------------  --------------------
+1        0.0106809                   0.998421           2.06336    2.06336            1                0.998942    1                           0.998942            0.0220386       0.0220386                  106.336   106.336            0.0220386
+2        0.0200267                   0.997482           2.06336    2.06336            1                0.998008    1                           0.998506            0.0192837       0.0413223                  106.336   106.336            0.0413223
+3        0.0307076                   0.996372           2.06336    2.06336            1                0.997054    1                           0.998001            0.0220386       0.0633609                  106.336   106.336            0.0633609
+4        0.0400534                   0.995381           2.06336    2.06336            1                0.995918    1                           0.997515            0.0192837       0.0826446                  106.336   106.336            0.0826446
+5        0.0507343                   0.994477           2.06336    2.06336            1                0.994897    1                           0.996964            0.0220386       0.104683                   106.336   106.336            0.104683
+6        0.100134                    0.989569           2.00759    2.03585            0.972973         0.992024    0.986667                    0.994527            0.0991736       0.203857                   100.759   103.585            0.201266
+7        0.150868                    0.983965           2.06336    2.0451             1                0.987322    0.99115                     0.992104            0.104683        0.30854                    106.336   104.51             0.305949
+8        0.200267                    0.975703           1.95183    2.02209            0.945946         0.979851    0.98                        0.989082            0.0964187       0.404959                   95.1828   102.209            0.397187
+9        0.300401                    0.932517           1.89829    1.98083            0.92             0.955648    0.96                        0.977937            0.190083        0.595041                   89.8292   98.0826            0.571725
+10       0.400534                    0.77438            1.78825    1.93268            0.866667         0.87304     0.936667                    0.951713            0.179063        0.774105                   78.8246   93.2681            0.724882
+11       0.500668                    0.46702            1.21051    1.78825            0.586667         0.625026    0.866667                    0.886375            0.121212        0.895317                   21.0505   78.8246            0.765783
+12       0.599466                    0.126776           0.669198   1.60382            0.324324         0.252935    0.777283                    0.781978            0.0661157       0.961433                   -33.0802  60.3815            0.702365
+13       0.699599                    0.0411938          0.247603   1.4097             0.12             0.0716942   0.683206                    0.680315            0.0247934       0.986226                   -75.2397  40.9701            0.556174
+14       0.799733                    0.0181202          0.0825344  1.24353            0.04             0.028344    0.602671                    0.598683            0.00826446      0.99449                    -91.7466  24.3528            0.37791
+15       0.899866                    0.00731554         0.0275115  1.10821            0.0133333        0.0120099   0.537092                    0.5334              0.00275482      0.997245                   -97.2489  10.8215            0.188955
+16       1                           0.000172015        0.0275115  1                  0.0133333        0.00369901  0.484646                    0.480359            0.00275482      1                          -97.2489  0                  0
+********************
+Accuracy: [[0.37323472135059554, 0.8891855807743658]]
+[INFO]  getting best model finished!, time elapsed: 69.20550513267517 seconds
+[INFO]  Training finished!, time elapsed: 0.0 seconds
+[INFO]  Done! From start, time elapsed: 77.2267746925354 seconds
+[INFO]  SHSE.000922 backtest finished: {'account_id': '16362727-4aff-11ef-8fae-80304917db79', 'pnl_ratio': 0.0, 'pnl_ratio_annual': 0.0, 'sharp_ratio': 0.0, 'max_drawdown': 0.0, 'risk_ratio': 0.0, 'open_count': 0, 'close_count': 0, 'win_count': 0, 'lose_count': 0, 'win_ratio': 0.0, 'calmar_ratio': 0.0, 'created_at': None, 'updated_at': None}
+Closing connection _sid_ad52 at exit
+H2O session _sid_ad52 closed.
+
+Process finished with exit code 0
